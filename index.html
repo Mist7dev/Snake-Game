@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Snake Game</title>
+   <link rel="stylesheet" href="./index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+   <link rel="manifest" href="./assets/site.webmanifest">
+</head>
+<body>
+   
+   <div class="container noselect">
+      <div id="ui">
+         <h2>Score: </h2>
+         <span id="score">00</span>
+         <div class="volumeOptions">
+            <button id="muteMusic"><img id="checkIsMuted" src="./assets/music.svg"></button>
+            <div class="volumeButtons">
+               <button id="increaseVolume"><img src="./assets/increase-volume.svg" alt=""></button>
+               <button id="lowerVolume"><img src="./assets/lower-volume.svg" alt=""></button>
+            </div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <button id="replay">Restart</button>
+         <div id="canvas"></div>
+      </div>
+
+      <div id="author">
+         <a href="https://github.com/Mist7dev" target="_blank"><img src="./assets/github.svg" alt="ícone do github"></a>
+      </div>
+   </div>
+
+   <script src="./index.js"></script>
+</body>
+</html>

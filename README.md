@@ -14,18 +14,18 @@ Este jogo foi desenvolvido usando:
 
 ## Requisitos
 
-Um dispositivo com um teclado físico para ser possível jogar o jogo.
+Um dispositivo com um teclado físico e um navegador para ser possível jogar o jogo.
 
 
 ## Como jogar
 
-1. Abra o [site](mist7dev.github.io/Snake-Game/link) do jogo em um navegador.
+1. Abra o [site](https://mist7dev.github.io/Snake-Game/link) do jogo em um navegador.
 
 2. Use as setas ou WASD no teclado para mover a cobra para cima, esquerda, baixo, direita.
 
 3. Tente comer a comida sem colidir com as paredes ou com o próprio corpo da cobra.
 
-4.  Quando o jogo terminar, você pode reiniciar o jogo clicando no botão 'reiniciar'.
+4. Quando o jogo terminar, você pode reiniciar o jogo clicando no botão 'reiniciar'.
 
 
 ## Contribuições

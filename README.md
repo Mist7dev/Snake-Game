@@ -19,7 +19,7 @@ Um dispositivo com um teclado físico para ser possível jogar o jogo.
 
 ## Como jogar
 
-1. Abra o <a href="mist7dev.github.io/Snake-Game/">link</a> do jogo em um navegador.
+1. Abra o [site](mist7dev.github.io/Snake-Game/link) do jogo em um navegador.
 
 2. Use as setas ou WASD no teclado para mover a cobra para cima, esquerda, baixo, direita.
 

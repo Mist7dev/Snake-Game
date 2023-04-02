@@ -457,6 +457,14 @@ document.addEventListener("keydown", () => {
    backgroundMusic.play();
 });
 
+lowerVolume.addEventListener("click", () => {
+   backgroundMusic.lowerVolume(0.1);
+});
+
+increaseVolume.addEventListener("click", () => {
+   backgroundMusic.increaseVolume(0.1);
+});
+
 function reset() {
    domScore.innerText == "00";
    score = "00";

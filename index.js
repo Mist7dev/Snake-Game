@@ -440,6 +440,23 @@ function loop() {
    }
 };
 
+muteMusic.addEventListener("click", () => {
+   const isMuted = backgroundMusic.sound.muted;
+   backgroundMusic.sound.muted = !isMuted;
+
+   const checkIsMuted = document.getElementById('checkIsMuted');
+
+   if (backgroundMusic.sound.muted) {
+      checkIsMuted.src = "./assets/music-off.svg";
+   } else {
+      checkIsMuted.src = "./assets/music.svg";
+   }
+});
+
+document.addEventListener("keydown", () => {
+   backgroundMusic.play();
+});
+
 function reset() {
    domScore.innerText == "00";
    score = "00";

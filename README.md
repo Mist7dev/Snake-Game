@@ -10,6 +10,7 @@ Este jogo foi desenvolvido usando:
 - Javascript
 - CSS
 - HTML
+- Git e Github
 
 
 ## Requisitos
